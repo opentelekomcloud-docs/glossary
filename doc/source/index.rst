@@ -603,8 +603,8 @@ Glossary
      standby and the standby DB instance is promoted to be primary. The data that has not be synchronized to the new primary DB instance (original standby) will
      be packaged and uploaded to OBS in SQL statements for users to download them.
 
-   GaussDB NoSQL
-     GaussDB NoSQL is a distributed, non-relational, multi-model NoSQL database service with decoupled compute and storage architecture. This high availability
+   GeminiDB
+     GeminiDB is a distributed, non-relational, multi-model NoSQL database service with decoupled compute and storage architecture. This high availability
      database is secure and scalable, can be deployed, backed up, or restored quickly, and includes monitoring and alarm management.
 
    GaussDB(for MySQL)
@@ -926,7 +926,7 @@ Glossary
      See :term:`NameNode`
 
    Node
-     Compute nodes in the GaussDB NoSQL cluster.
+     Compute nodes in the GeminiDB cluster.
 
    node
      A basic metering unit in DWS. It includes user-specified computing and storage resources and virtual machines (VMs) where DWS programs are deployed.
