@@ -1627,3 +1627,9 @@ Glossary
    write-ahead logging
      Write-ahead logging (WAL) is a standard method for logging a transaction. Corresponding logs must be written into a permanent device before a data file
      (carrier for a table and index) is modified.
+
+.. note::
+
+   This is a test change to verify the eco2 Zuul promote pipeline
+   end-to-end (gate build → promote → Swift upload). Can be reverted
+   after the promote job succeeds.
