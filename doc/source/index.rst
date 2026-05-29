@@ -177,6 +177,12 @@ Glossary
      Cloud Container Engine (CCE) is a scalable, high-performance container service. It is built on Docker technology and scales your applications within seconds.
      CCE also provides fast application shipping and deployment, automatic O&M, and other Docker container lifecycle management features.
 
+   Cloud Connect
+
+     Cloud Connect provides central networks that allow you to connect Virtual Private Clouds (VPCs) in different regions, so that these VPCs can communicate
+     over a private network as if they were within the same network. Cloud Connect can also work with Direct Connect to set up a hybrid cloud network that 
+     enables on-premises data centers to access the VPCs across regions.
+
    Cloud Eye
      Cloud Eye is a multi-dimensional resource monitoring platform. You can use Cloud Eye to monitor the utilization of service resources, track the running
      status of cloud services, configure alarm rules and notifications, and quickly respond to resource changes.
@@ -1627,9 +1633,3 @@ Glossary
    write-ahead logging
      Write-ahead logging (WAL) is a standard method for logging a transaction. Corresponding logs must be written into a permanent device before a data file
      (carrier for a table and index) is modified.
-
-.. note::
-
-   This is a test change to verify the eco2 Zuul promote pipeline
-   end-to-end (gate build → promote → Swift upload). Can be reverted
-   after the promote job succeeds.
